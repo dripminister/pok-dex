@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body id="body">
+        <div id="background">
+            <h1>Pokedex</h1>
+            <input type="text" class="search-box" placeholder="Enter number or name" autocomplete="on"/><br>
+            <img id="pic" src="https://www.pngmart.com/files/22/White-Background-PNG-Pic.png">
+            <h3 id="name">Name</h3>
+            <h4 id="type">Type: </h4>
+            
+            <table id="types">
+                <td id="type1"></td><td id="type2"></td>
+            </table>
+            
+            <h4 id="stat">Stats:</h4>
+
+            <table id="stats">
+
+                <tr>
+                    <td id="hp" class="cell"></td>
+                    <td id="att" class="cell"></td>
+                </tr>
+                
+                <tr>
+                    <td id="def" class="cell"></td>
+                    <td id="special-att" class="cell"></td>
+                </tr>
+                
+                <tr>
+                    <td id="special-def" class="cell"></td>
+                    <td id="speed" class="cell"></td>
+                </tr>
+        
+            </table>
+            
+            
+            <h4>Type effectivness:</h4>
+            <table id="relations">  
+                <tr>
+                    <th>0x</th>
+                    <th>1/4x</th>
+                    <th>1/2x</th>
+                    <th>1x</th>
+                    <th>2x</th>
+                    <th>4x</th>
+                </tr>
+                
+                <tr>
+                    <td class="rel" id="0"></td>
+                    <td class="rel" id="1/4"></td>
+                    <td class="rel" id="1/2"></td>
+                    <td class="rel" id="1"></td>
+                    <td class="rel" id="2"></td>
+                    <td class="rel" id="4"></td>
+                </tr>
+            </table>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
